@@ -271,7 +271,7 @@
 </template>
 
 <script setup>
-import { loadData, saveData, initDatabase, subscribeToChanges } from '../services/supabase'
+import { loadData, saveData, initDatabase, subscribeToChanges } from '../supabase'
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useRouter } from 'vue-router'
 
