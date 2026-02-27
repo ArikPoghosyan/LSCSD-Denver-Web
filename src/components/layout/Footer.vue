@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <template>
   <footer class="footer">
     <div class="footer__grid" aria-hidden="true"></div>
@@ -849,4 +848,4 @@ const scrollToDepts = () => {
 }
 
 </style>
->>>>>>> 931dd75ada31e09a7b2d968f5be864081780f501
+
