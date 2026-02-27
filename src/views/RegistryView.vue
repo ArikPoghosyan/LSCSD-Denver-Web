@@ -125,8 +125,8 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
-import { supabase } from '../supabase'
+import { loadData, saveData, initDatabase, subscribeToChanges } from '../supabase'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 
 const officers = ref([])
 const officerForm = ref({ firstName: '', lastName: '', idCard: '', status: 'ACTIVE' })
